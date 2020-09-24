@@ -1,0 +1,23 @@
+{
+  "name": "kurusa/quiz",
+  "authors": [
+    {
+      "name": "KurusaChan",
+      "email": "kurusa03@gmail.com"
+    }
+  ],
+  "require": {
+    "phptricks/database_class": "^4.1",
+    "guzzlehttp/guzzle": "^6.3",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "google/apiclient": "^2.0",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/",
+      "Viber\\": "Viber/"
+    }
+  }
+}

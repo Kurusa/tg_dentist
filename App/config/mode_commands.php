@@ -1,0 +1,22 @@
+<?php
+return [
+    'birthday' => \App\Commands\AskBirthday::class,
+    'full_name' => \App\Commands\OfferAppointment::class,
+    'phone_number' => \App\Commands\OfferAppointment::class,
+    'select_day' => \App\Commands\OfferAppointment::class,
+    'select_time' => \App\Commands\OfferAppointment::class,
+    'free_records' => \App\Commands\OfferAppointment::class,
+    'how_long' => \App\Commands\OfferAppointment::class,
+    'how_long_time' => \App\Commands\OfferAppointment::class,
+    'full_name_profile' => \App\Commands\Profile::class,
+    'phone_number_profile' => \App\Commands\Profile::class,
+    'how_long_rec' => \App\Commands\MyRecords::class,
+    'how_long_time_rec' => \App\Commands\MyRecords::class,
+    'select_day_rec' => \App\Commands\MyRecords::class,
+    'select_time_rec' => \App\Commands\MyRecords::class,
+    'admin_fio' => \App\Commands\AdminOfferAppointment::class,
+    'admin_how_long' => \App\Commands\AdminOfferAppointment::class,
+    'admin_phone_number' => \App\Commands\AdminOfferAppointment::class,
+    'admin_select_day' => \App\Commands\AdminOfferAppointment::class,
+    'admin_select_time' => \App\Commands\AdminOfferAppointment::class,
+];
